@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+}
+
+.header_content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: var(--font-family);
+
+    margin-right: 5rem;
+}
+
+.header_content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 3.875rem;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.header_content p {
+    font-size: 1.25rem;
+    line-height: 27px;
+
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.header_content_input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.header_content_input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    background: var(--color-footer);
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 27px;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header_content_input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+
+    background: #ff4820;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0 1rem;
+}
+
+.header_content_people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.header_content_people p {
+    margin: 0;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 38px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.header_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header_content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header h1 {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .header p {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    .header_content_people {
+        flex-direction: column;
+    }
+
+    .header_content_people p {
+        margin: 0;
+        margin-left: 0;
+        font-size: 0.75rem;
+        line-height: 38px;
+    }
+
+    .header_content_input input {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    .header_content_input button {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header h1 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+}
