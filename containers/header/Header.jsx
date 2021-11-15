@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
             </div>
             <div className={styles.header_img}>
-                <Image src={ai} alt='ai' />
+                <Image src={ai} alt='ai' quality={100} />
             </div>
         </div>
     );
