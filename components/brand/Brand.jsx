@@ -1,0 +1,11 @@
+import styles from './brand.module.css';
+
+const Brand = () => {
+    return (
+        <div>
+            <h1>Brand</h1>
+        </div>
+    );
+};
+
+export default Brand;
