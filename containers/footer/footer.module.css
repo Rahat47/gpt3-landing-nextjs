@@ -1,0 +1,148 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-footer);
+}
+
+.footer_heading {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.footer_heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 3.875rem;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.footer_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.footer_btn p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    box-sizing: border-box;
+    color: #ffffff;
+    word-spacing: 2px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.footer_links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_logo address {
+    font-family: var(--font-family);
+    margin-top: 1rem;
+    font-size: 12px;
+    line-height: 14px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.footer_links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer_links_div h4 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 2.25rem;
+}
+
+.footer_links_div p {
+    font-family: var(--font-family);
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #ffffff;
+    cursor: pointer;
+
+    margin-bottom: 1.625rem;
+}
+
+.footer_copy {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.footer_copy p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+    .footer_heading h1 {
+        font-size: 2.75rem;
+        line-height: 50px;
+    }
+
+    .footer_btn p {
+        font-size: 14px;
+    }
+
+    .footer_links_div h4 {
+        font-size: 0.75rem;
+    }
+
+    .footer_links_div p {
+        font-size: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer_heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .footer_links div {
+        margin: 1rem 0;
+    }
+
+    .footer_btn p {
+        font-size: 0.875rem;
+        line-height: 20px;
+    }
+}
