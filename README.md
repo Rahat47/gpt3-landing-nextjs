@@ -6,7 +6,7 @@ A modern slick UI/UX project, GPT3 Landing page. Made with Next.js, harnessing t
 
 ## Screenshots
 
-![App Screenshot](https://freeimage.host/i/5NjQNR)
+![App Screenshot](https://iili.io/5NjQNR.png)
 
 ## Run Locally
 
